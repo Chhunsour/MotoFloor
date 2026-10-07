@@ -1,0 +1,22 @@
+# Xcode
+## User settings
+xcuserdata/
+*.xcuserdatad
+
+## Build generated
+build/
+DerivedData/
+.build/
+
+## Various
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+## macOS
+.DS_Store
+*.swp
+*~
+
+## Binaries
+main

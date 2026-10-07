@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59EA81B74496D00E48426BE9 /* MotoFloorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44AF7E100B81AFB38EBBD03; };
+		59EA81B74496D00E48426BE9VIEW /* MainParkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44AF7E100B81AFB38EBBD03VIEW; };
+		2380E7890C6629D5B8BEFF3C /* FloorSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0DAC36467D6748DBD510F8; };
+		5F07B50BEDA72A2DF879CC42 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C940F210F59DAF5CE8834BB3; };
+		9A7AD4F5C4619EB3D34EEB75 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8ABB4AC385E4DE033E57B4; };
+		AC99BAAFED19FEB2E1B0570B /* OnboardingSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EAC57F9F311FAE6FFCBCD; };
+		08310413430B0659D955B958 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631061A9D5FB0E0C74D60A0; };
+		784B25445DC561489C56C54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3378F6F8238F63E78A95C8C; };
+
+		2EC7C84C2EDC937590093999 /* ParkingFloor.swift in Sources (App) */ = {isa = PBXBuildFile; fileRef = 17B4F120DA7AE95DF20F5550; };
+		B18D22BF9AE5495F936F7CAF /* ParkingRecord.swift in Sources (App) */ = {isa = PBXBuildFile; fileRef = 3304EF55E4DBAAD5FF092270; };
+		09A4C663A4A051BE36CAFB4E /* ParkingStore.swift in Sources (App) */ = {isa = PBXBuildFile; fileRef = BE1ED677EBA12785DC46EC5F; };
+		C5DC940082742AE1309C8131 /* MotoTheme.swift in Sources (App) */ = {isa = PBXBuildFile; fileRef = 3643BF2DADD2FBFD8419A275; };
+		BEEC5C45B7140D4469524A6D /* SetParkingFloorIntent.swift in Sources (App) */ = {isa = PBXBuildFile; fileRef = 8A3045D7CB6D2DADAA0497C2; };
+		55C7F4DD120518DE59A1A619 /* ClearParkingIntent.swift in Sources (App) */ = {isa = PBXBuildFile; fileRef = D71D6ABE814A3E91869E635B; };
+		CB504815B3C6333F29085AA7 /* OpenMotoFloorIntent.swift in Sources (App) */ = {isa = PBXBuildFile; fileRef = CD8B2D664281BB6CF91EFAE9; };
+		1E7A704E290D9D6B11B04323 /* MotoFloorShortcuts.swift in Sources (App) */ = {isa = PBXBuildFile; fileRef = 969B8F4AC6635691E93AEA99; };
+
+		84A117273659509AC8F8570A /* ParkingFloor.swift in Sources (Widget) */ = {isa = PBXBuildFile; fileRef = 17B4F120DA7AE95DF20F5550; };
+		B61FF6269BA3C4033DF1C10C /* ParkingRecord.swift in Sources (Widget) */ = {isa = PBXBuildFile; fileRef = 3304EF55E4DBAAD5FF092270; };
+		C13AE73F0D6E62C19F9729FD /* ParkingStore.swift in Sources (Widget) */ = {isa = PBXBuildFile; fileRef = BE1ED677EBA12785DC46EC5F; };
+		F8E17D75B7FD52A6BE901A1A /* MotoTheme.swift in Sources (Widget) */ = {isa = PBXBuildFile; fileRef = 3643BF2DADD2FBFD8419A275; };
+		61E363627A2485D8F7D0F030 /* SetParkingFloorIntent.swift in Sources (Widget) */ = {isa = PBXBuildFile; fileRef = 8A3045D7CB6D2DADAA0497C2; };
+		BCC8D46A8420F8791B82323C /* ClearParkingIntent.swift in Sources (Widget) */ = {isa = PBXBuildFile; fileRef = D71D6ABE814A3E91869E635B; };
+		55869A09493375260387B49E /* OpenMotoFloorIntent.swift in Sources (Widget) */ = {isa = PBXBuildFile; fileRef = CD8B2D664281BB6CF91EFAE9; };
+
+		52839593D55661FABAB80979 /* MotoFloorWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA76EDFD38E66678D9786E8; };
+		0ED525EFD5DCA89E82EE291F /* MotoFloorWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7941D3352D7C560237ADBF; };
+		451054A7840B39B70B49DE50 /* MotoFloorLockScreenWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A5A999041A5A7FE3AC75D6; };
+		9648E5E51D3A7DBACE997E5D /* MotoFloorControlWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1563E6A31676973AEB94261E; };
+		96B43422E494FF865841085C /* ParkingTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4242C7F5E7DA40ACBD462C; };
+		A21432327C95A0F695AE7063 /* SmallWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113966BA36B0E68F40EB94DD; };
+		B50BDE8969DE22035F27D1EE /* MediumWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFC351B7069E680C97629B8; };
+		0DE7D7B0C6B26AF5D6E1FDC9 /* LockScreenWidgetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214C181B209D02517C383A56; };
+		19B2A865D8ECE7B2CBC64F9C /* Assets.xcassets in Resources (Widget) */ = {isa = PBXBuildFile; fileRef = CCD5CC4D906BC28D1846DB09; };
+
+		D84D4AF6EC491C89EF2287EB /* MotoFloorWidgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9D2CBA14C3AA03E3C8F307E0; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+
+		51E8D48261EF43BF821CBE13 /* ParkingFloorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AEAE04C37053997B4DFEC6; };
+		E0BF18D6C1151BA0062F15AA /* ParkingRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09B7332C9F44D58D5614DC8; };
+		4BCFC930D13FCE3E0522B0AE /* ParkingStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818EAF061AD840A17491AA5; };
+		8B583F326FBED1C646A00D50 /* StaleRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B79C920444D965067E4A542; };
+		016786A63480A6A20E02ABCC /* ParkingFloor.swift in Sources (Test) */ = {isa = PBXBuildFile; fileRef = 17B4F120DA7AE95DF20F5550; };
+		85EDBEE9AE9E12CBCB2F0093 /* ParkingRecord.swift in Sources (Test) */ = {isa = PBXBuildFile; fileRef = 3304EF55E4DBAAD5FF092270; };
+		6482FEA11EF48DA141A37530 /* ParkingStore.swift in Sources (Test) */ = {isa = PBXBuildFile; fileRef = BE1ED677EBA12785DC46EC5F; };
+		54E9E18FBD4B9426DFDA34D6 /* MotoTheme.swift in Sources (Test) */ = {isa = PBXBuildFile; fileRef = 3643BF2DADD2FBFD8419A275; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A4B78DD451FD2F46CD324EA = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41395A10DF292DDCD2FEE52B;
+			proxyType = 1;
+			remoteGlobalIDString = B6D0788C2A47E72B4C5D67B2;
+			remoteInfo = MotoFloorWidgets;
+		};
+		720649B8BC2FC1BE90CE9B08 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41395A10DF292DDCD2FEE52B;
+			proxyType = 1;
+			remoteGlobalIDString = 0A1D1B958922F39EFB59FFBA;
+			remoteInfo = MotoFloor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFFD219918AB5B193927C968 = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D84D4AF6EC491C89EF2287EB,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12DBD3B1044731B8C35C4B03 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoFloor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2CBA14C3AA03E3C8F307E0 = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MotoFloorWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E594ECBABA5805AA0E526E9 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotoFloorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+
+		C44AF7E100B81AFB38EBBD03 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoFloorApp.swift; sourceTree = "<group>"; };
+		C44AF7E100B81AFB38EBBD03VIEW = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainParkingView.swift; sourceTree = "<group>"; };
+		AC0DAC36467D6748DBD510F8 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorSelectorView.swift; sourceTree = "<group>"; };
+		C940F210F59DAF5CE8834BB3 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		7D8ABB4AC385E4DE033E57B4 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		831EAC57F9F311FAE6FFCBCD = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSheetView.swift; sourceTree = "<group>"; };
+		5631061A9D5FB0E0C74D60A0 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		E3378F6F8238F63E78A95C8C = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7413B495F43C963E05EA229 = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MotoFloor.entitlements; sourceTree = "<group>"; };
+		C6EECE6D221A30E480C1A18D = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
+		17B4F120DA7AE95DF20F5550 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingFloor.swift; sourceTree = "<group>"; };
+		3304EF55E4DBAAD5FF092270 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingRecord.swift; sourceTree = "<group>"; };
+		BE1ED677EBA12785DC46EC5F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingStore.swift; sourceTree = "<group>"; };
+		3643BF2DADD2FBFD8419A275 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoTheme.swift; sourceTree = "<group>"; };
+		8A3045D7CB6D2DADAA0497C2 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetParkingFloorIntent.swift; sourceTree = "<group>"; };
+		D71D6ABE814A3E91869E635B = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearParkingIntent.swift; sourceTree = "<group>"; };
+		CD8B2D664281BB6CF91EFAE9 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMotoFloorIntent.swift; sourceTree = "<group>"; };
+		969B8F4AC6635691E93AEA99 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoFloorShortcuts.swift; sourceTree = "<group>"; };
+
+		5DA76EDFD38E66678D9786E8 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoFloorWidgetsBundle.swift; sourceTree = "<group>"; };
+		5A7941D3352D7C560237ADBF = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoFloorWidget.swift; sourceTree = "<group>"; };
+		C3A5A999041A5A7FE3AC75D6 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoFloorLockScreenWidget.swift; sourceTree = "<group>"; };
+		1563E6A31676973AEB94261E = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoFloorControlWidget.swift; sourceTree = "<group>"; };
+		6A4242C7F5E7DA40ACBD462C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingTimelineProvider.swift; sourceTree = "<group>"; };
+		113966BA36B0E68F40EB94DD = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallWidgetView.swift; sourceTree = "<group>"; };
+		6AFC351B7069E680C97629B8 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumWidgetView.swift; sourceTree = "<group>"; };
+		214C181B209D02517C383A56 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenWidgetViews.swift; sourceTree = "<group>"; };
+		CCD5CC4D906BC28D1846DB09 = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59AB5EC1684EE2EAE8716623 = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MotoFloorWidgets.entitlements; sourceTree = "<group>"; };
+		59AFE0F91BC219BC901FF516 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
+		43AEAE04C37053997B4DFEC6 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingFloorTests.swift; sourceTree = "<group>"; };
+		E09B7332C9F44D58D5614DC8 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingRecordTests.swift; sourceTree = "<group>"; };
+		B818EAF061AD840A17491AA5 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingStoreTests.swift; sourceTree = "<group>"; };
+		8B79C920444D965067E4A542 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaleRecordTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		734D687AEAE23452B9A42E20 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C7919203F430B205CD626F = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455E8D119F1A28A013288D86 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9B8DBC97B2054281802674F = {
+			isa = PBXGroup;
+			children = (
+				32D37909E93D483633920A81,
+				0E5EA55B00962DCEB3E1F3C6,
+				7BE482CD96A11501F083B927,
+				D9850D234A9E849DA1B12BBE,
+				5C3301D8292DBACEA69EE035,
+			);
+			sourceTree = "<group>";
+		};
+		5C3301D8292DBACEA69EE035 = {
+			isa = PBXGroup;
+			children = (
+				12DBD3B1044731B8C35C4B03,
+				9D2CBA14C3AA03E3C8F307E0,
+				9E594ECBABA5805AA0E526E9,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32D37909E93D483633920A81 = {
+			isa = PBXGroup;
+			children = (
+				32D37909E93D483633920A81_MODELS,
+				32D37909E93D483633920A81_STORAGE,
+				32D37909E93D483633920A81_THEME,
+				32D37909E93D483633920A81_INTENTS,
+			);
+			name = Shared;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		32D37909E93D483633920A81_MODELS = {
+			isa = PBXGroup;
+			children = (
+				17B4F120DA7AE95DF20F5550,
+				3304EF55E4DBAAD5FF092270,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		32D37909E93D483633920A81_STORAGE = {
+			isa = PBXGroup;
+			children = (
+				BE1ED677EBA12785DC46EC5F,
+			);
+			name = Storage;
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		32D37909E93D483633920A81_THEME = {
+			isa = PBXGroup;
+			children = (
+				3643BF2DADD2FBFD8419A275,
+			);
+			name = Theme;
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		32D37909E93D483633920A81_INTENTS = {
+			isa = PBXGroup;
+			children = (
+				8A3045D7CB6D2DADAA0497C2,
+				D71D6ABE814A3E91869E635B,
+				CD8B2D664281BB6CF91EFAE9,
+				969B8F4AC6635691E93AEA99,
+			);
+			name = Intents;
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		0E5EA55B00962DCEB3E1F3C6 = {
+			isa = PBXGroup;
+			children = (
+				C6EECE6D221A30E480C1A18D,
+				0E5EA55B00962DCEB3E1F3C6_APP,
+				0E5EA55B00962DCEB3E1F3C6_VIEWS,
+				0E5EA55B00962DCEB3E1F3C6_COMPONENTS,
+				0E5EA55B00962DCEB3E1F3C6_UTILITIES,
+				0E5EA55B00962DCEB3E1F3C6_RESOURCES,
+			);
+			name = MotoFloor;
+			path = MotoFloor;
+			sourceTree = "<group>";
+		};
+		0E5EA55B00962DCEB3E1F3C6_APP = {
+			isa = PBXGroup;
+			children = (
+				C44AF7E100B81AFB38EBBD03,
+			);
+			name = App;
+			path = App;
+			sourceTree = "<group>";
+		};
+		0E5EA55B00962DCEB3E1F3C6_VIEWS = {
+			isa = PBXGroup;
+			children = (
+				C44AF7E100B81AFB38EBBD03VIEW,
+				AC0DAC36467D6748DBD510F8,
+				C940F210F59DAF5CE8834BB3,
+				7D8ABB4AC385E4DE033E57B4,
+				831EAC57F9F311FAE6FFCBCD,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0E5EA55B00962DCEB3E1F3C6_COMPONENTS = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Components;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0E5EA55B00962DCEB3E1F3C6_UTILITIES = {
+			isa = PBXGroup;
+			children = (
+				5631061A9D5FB0E0C74D60A0,
+			);
+			name = Utilities;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0E5EA55B00962DCEB3E1F3C6_RESOURCES = {
+			isa = PBXGroup;
+			children = (
+				E3378F6F8238F63E78A95C8C,
+				C7413B495F43C963E05EA229,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7BE482CD96A11501F083B927 = {
+			isa = PBXGroup;
+			children = (
+				59AFE0F91BC219BC901FF516,
+				5DA76EDFD38E66678D9786E8,
+				7BE482CD96A11501F083B927_WIDGETS,
+				7BE482CD96A11501F083B927_CONTROLS,
+				7BE482CD96A11501F083B927_VIEWS,
+				7BE482CD96A11501F083B927_PROVIDERS,
+				7BE482CD96A11501F083B927_RESOURCES,
+			);
+			name = MotoFloorWidgets;
+			path = MotoFloorWidgets;
+			sourceTree = "<group>";
+		};
+		7BE482CD96A11501F083B927_WIDGETS = {
+			isa = PBXGroup;
+			children = (
+				5A7941D3352D7C560237ADBF,
+				C3A5A999041A5A7FE3AC75D6,
+			);
+			name = Widgets;
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		7BE482CD96A11501F083B927_CONTROLS = {
+			isa = PBXGroup;
+			children = (
+				1563E6A31676973AEB94261E,
+			);
+			name = Controls;
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		7BE482CD96A11501F083B927_VIEWS = {
+			isa = PBXGroup;
+			children = (
+				113966BA36B0E68F40EB94DD,
+				6AFC351B7069E680C97629B8,
+				214C181B209D02517C383A56,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BE482CD96A11501F083B927_PROVIDERS = {
+			isa = PBXGroup;
+			children = (
+				6A4242C7F5E7DA40ACBD462C,
+			);
+			name = Providers;
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		7BE482CD96A11501F083B927_RESOURCES = {
+			isa = PBXGroup;
+			children = (
+				CCD5CC4D906BC28D1846DB09,
+				59AB5EC1684EE2EAE8716623,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D9850D234A9E849DA1B12BBE = {
+			isa = PBXGroup;
+			children = (
+				43AEAE04C37053997B4DFEC6,
+				E09B7332C9F44D58D5614DC8,
+				B818EAF061AD840A17491AA5,
+				8B79C920444D965067E4A542,
+			);
+			name = MotoFloorTests;
+			path = MotoFloorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A1D1B958922F39EFB59FFBA = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CONFIGS_0A1D1B958922F39EFB59FFBA;
+			buildPhases = (
+				1B8B1B28C380A8A9A7D2E510,
+				734D687AEAE23452B9A42E20,
+				CF963DCD48E7331F30D5BE50,
+				FFFD219918AB5B193927C968,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEP_B6D0788C2A47E72B4C5D67B2,
+			);
+			name = MotoFloor;
+			productName = MotoFloor;
+			productReference = 12DBD3B1044731B8C35C4B03;
+			productType = "com.apple.product-type.application";
+		};
+		B6D0788C2A47E72B4C5D67B2 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CONFIGS_B6D0788C2A47E72B4C5D67B2;
+			buildPhases = (
+				3807E492005BD942DAE57852,
+				F9C7919203F430B205CD626F,
+				09BBF02840406AA2A0C64C95,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotoFloorWidgets;
+			productName = MotoFloorWidgets;
+			productReference = 9D2CBA14C3AA03E3C8F307E0;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6004276F8E7015E3B05986AB = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CONFIGS_6004276F8E7015E3B05986AB;
+			buildPhases = (
+				BADBA83D64A4F709DDCF6F9E,
+				455E8D119F1A28A013288D86,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEP_0A1D1B958922F39EFB59FFBA,
+			);
+			name = MotoFloorTests;
+			productName = MotoFloorTests;
+			productReference = 9E594ECBABA5805AA0E526E9;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41395A10DF292DDCD2FEE52B = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0A1D1B958922F39EFB59FFBA = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					B6D0788C2A47E72B4C5D67B2 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					6004276F8E7015E3B05986AB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 0A1D1B958922F39EFB59FFBA;
+					};
+				};
+			};
+			buildConfigurationList = 75E3FD457FC6DB6CAC2E04FA;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9B8DBC97B2054281802674F;
+			productRefGroup = 5C3301D8292DBACEA69EE035;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A1D1B958922F39EFB59FFBA,
+				B6D0788C2A47E72B4C5D67B2,
+				6004276F8E7015E3B05986AB,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF963DCD48E7331F30D5BE50 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784B25445DC561489C56C54F,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09BBF02840406AA2A0C64C95 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B2A865D8ECE7B2CBC64F9C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B8B1B28C380A8A9A7D2E510 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EA81B74496D00E48426BE9,
+				59EA81B74496D00E48426BE9VIEW,
+				2380E7890C6629D5B8BEFF3C,
+				5F07B50BEDA72A2DF879CC42,
+				9A7AD4F5C4619EB3D34EEB75,
+				AC99BAAFED19FEB2E1B0570B,
+				08310413430B0659D955B958,
+				2EC7C84C2EDC937590093999,
+				B18D22BF9AE5495F936F7CAF,
+				09A4C663A4A051BE36CAFB4E,
+				C5DC940082742AE1309C8131,
+				BEEC5C45B7140D4469524A6D,
+				55C7F4DD120518DE59A1A619,
+				CB504815B3C6333F29085AA7,
+				1E7A704E290D9D6B11B04323,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3807E492005BD942DAE57852 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52839593D55661FABAB80979,
+				0ED525EFD5DCA89E82EE291F,
+				451054A7840B39B70B49DE50,
+				9648E5E51D3A7DBACE997E5D,
+				96B43422E494FF865841085C,
+				A21432327C95A0F695AE7063,
+				B50BDE8969DE22035F27D1EE,
+				0DE7D7B0C6B26AF5D6E1FDC9,
+				84A117273659509AC8F8570A,
+				B61FF6269BA3C4033DF1C10C,
+				C13AE73F0D6E62C19F9729FD,
+				F8E17D75B7FD52A6BE901A1A,
+				61E363627A2485D8F7D0F030,
+				BCC8D46A8420F8791B82323C,
+				55869A09493375260387B49E,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADBA83D64A4F709DDCF6F9E = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E8D48261EF43BF821CBE13,
+				E0BF18D6C1151BA0062F15AA,
+				4BCFC930D13FCE3E0522B0AE,
+				8B583F326FBED1C646A00D50,
+				016786A63480A6A20E02ABCC,
+				85EDBEE9AE9E12CBCB2F0093,
+				6482FEA11EF48DA141A37530,
+				54E9E18FBD4B9426DFDA34D6,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEP_B6D0788C2A47E72B4C5D67B2 = {
+			isa = PBXTargetDependency;
+			target = B6D0788C2A47E72B4C5D67B2;
+			targetProxy = 1A4B78DD451FD2F46CD324EA;
+		};
+		DEP_0A1D1B958922F39EFB59FFBA = {
+			isa = PBXTargetDependency;
+			target = 0A1D1B958922F39EFB59FFBA;
+			targetProxy = 720649B8BC2FC1BE90CE9B08;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3B69EEC4F562FC177F78D10 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8B73B14021AD275B0215277A = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1104A91AE828C63C2A86375E = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MotoFloor/Resources/MotoFloor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX5SUA48CM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MotoFloor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chhunsour.motofloor;
+				PRODUCT_NAME = MotoFloor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1EFDF41412516BFE2275FE4D = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MotoFloor/Resources/MotoFloor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX5SUA48CM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MotoFloor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chhunsour.motofloor;
+				PRODUCT_NAME = MotoFloor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1B659DDE10701ABE2299648C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MotoFloorWidgets/Resources/MotoFloorWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX5SUA48CM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MotoFloorWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chhunsour.motofloor.widgets;
+				PRODUCT_NAME = MotoFloorWidgets;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A1C7128E831DE5DFA77D3010 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MotoFloorWidgets/Resources/MotoFloorWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX5SUA48CM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MotoFloorWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chhunsour.motofloor.widgets;
+				PRODUCT_NAME = MotoFloorWidgets;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		72EEDFB27FD0D934A18CBCA4 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX5SUA48CM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chhunsour.motofloorTests;
+				PRODUCT_NAME = MotoFloorTests;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotoFloor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MotoFloor";
+			};
+			name = Debug;
+		};
+		511BEE00E990C6065A29FD7A = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX5SUA48CM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chhunsour.motofloorTests;
+				PRODUCT_NAME = MotoFloorTests;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotoFloor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MotoFloor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75E3FD457FC6DB6CAC2E04FA = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B69EEC4F562FC177F78D10,
+				8B73B14021AD275B0215277A,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CONFIGS_0A1D1B958922F39EFB59FFBA = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1104A91AE828C63C2A86375E,
+				1EFDF41412516BFE2275FE4D,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CONFIGS_B6D0788C2A47E72B4C5D67B2 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B659DDE10701ABE2299648C,
+				A1C7128E831DE5DFA77D3010,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CONFIGS_6004276F8E7015E3B05986AB = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72EEDFB27FD0D934A18CBCA4,
+				511BEE00E990C6065A29FD7A,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41395A10DF292DDCD2FEE52B;
+}
