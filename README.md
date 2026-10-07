@@ -113,14 +113,14 @@ MotoFloor/
 Both the **MotoFloor** application target and the **MotoFloorWidgets** extension target are configured with the shared App Group:
 
 ```
-group.com.example.motofloor
+group.com.chhunsour.motofloor
 ```
 
 - Entitlements files:
   - `MotoFloor/Resources/MotoFloor.entitlements`
   - `MotoFloorWidgets/Resources/MotoFloorWidgets.entitlements`
 - Storage identifier constant:
-  - `ParkingStore.appGroupIdentifier = "group.com.example.motofloor"`
+  - `ParkingStore.appGroupIdentifier = "group.com.chhunsour.motofloor"`
 
 > **Note on Custom Bundle / App Group Identifiers:**
 > If you publish to your Apple Developer Account, update the Bundle Identifier (`com.yourdomain.motofloor`) and App Group (`group.com.yourdomain.motofloor`) in the targets' Signing & Capabilities tab in Xcode and update `ParkingStore.appGroupIdentifier` accordingly.
