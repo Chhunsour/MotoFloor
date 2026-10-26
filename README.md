@@ -1,5 +1,16 @@
 # MotoFloor 🏍️
 
+<p align="center">
+  <sub>Developed by <strong>Seng Chhunsour</strong></sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Chhunsour"><img src="https://img.shields.io/badge/Author-Seng%20Chhunsour-FF5A1F?style=flat-square&logo=github&logoColor=white" alt="Author: Seng Chhunsour" /></a>
+  <img src="https://img.shields.io/badge/Platform-iOS%2017%2B-blue?style=flat-square&logo=apple" alt="iOS 17+" />
+  <img src="https://img.shields.io/badge/Swift-5.9%2B-orange?style=flat-square&logo=swift" alt="Swift 5.9+" />
+  <img src="https://img.shields.io/badge/Widgets-Interactive-purple?style=flat-square" alt="Widgets" />
+</p>
+
 > **Save your motorcycle parking floor in one tap and see it instantly later from your iPhone Home Screen or Lock Screen.**
 
 MotoFloor is an ultra-focused, 100% native Apple-platform utility designed to solve a single everyday problem: never forgetting which floor (M, 1, 2, or 3) you parked your motorcycle on in a multi-level structure.
@@ -156,3 +167,17 @@ Open `MotoFloor.xcodeproj` in Xcode and press `Cmd + U` to execute the full unit
    ```bash
    sudo xcodebuild -license accept
    ```
+
+---
+
+## 👤 Author & Developer
+
+**Developed by Seng Chhunsour**
+- **GitHub:** [@Chhunsour](https://github.com/Chhunsour)
+- **Repository:** [https://github.com/Chhunsour/MotoFloor](https://github.com/Chhunsour/MotoFloor)
+
+---
+
+## 📄 License
+
+Personal and open-source project. Developed by Seng Chhunsour. All rights reserved.
